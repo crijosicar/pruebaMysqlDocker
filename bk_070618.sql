@@ -1,5 +1,8 @@
-probado  en:
-1. windows 7 64 bits
+CREATE SCHEMA `prueba` ;
 
-requiere de:
-2. jdk 1.8
+CREATE TABLE `prueba`.`prueba` (
+  `idprueba` INT NOT NULL,
+  `pruebacol` VARCHAR(45) NULL,
+  `pruebacol1` VARCHAR(45) NULL,
+  `pruebacol2` VARCHAR(45) NULL,
+  PRIMARY KEY (`idprueba`));
